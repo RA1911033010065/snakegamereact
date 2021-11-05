@@ -2,7 +2,7 @@
 
 function App() {
   return (
-    <div>Hello</div>
+    <div className="game-area" > </div>
   );
 }
 
