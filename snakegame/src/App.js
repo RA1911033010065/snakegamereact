@@ -24,7 +24,8 @@ class App extends Component {
 
   state = initialState;
 
-  componentDidMount() {
+  componentDidMount() 
+  {
     setInterval(this.moveSnake, this.state.speed);
     document.onkeydown = this.onKeyDown;
   }
